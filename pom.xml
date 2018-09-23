@@ -67,9 +67,15 @@
    				 <artifactId>maven-surefire-plugin</artifactId>
    				 <version>2.19.1</version>
 				<configuration>
+				<systemPropertyVariables>
+						<property>
+							<userName>${DuserName}</userName>
+							<password>${Dpassword}</password>
+						</property>
+					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/resource/Regression.xml</suiteXmlFile>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>src/resource/Regression.xml</suiteXmlFile> -->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
