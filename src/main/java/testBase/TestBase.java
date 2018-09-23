@@ -33,12 +33,12 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	{
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajinkya.bhobad\\Desktop\\jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", "C:\\Users\\ajinkya.bhobad\\Desktop\\jars\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir")+"\\src\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 	    }		
 	}
