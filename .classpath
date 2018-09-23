@@ -25,5 +25,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/admin/eclipse-workspace/AutomationPractise/src/drivers/testng-6.14.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

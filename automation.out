@@ -1,4 +1,8 @@
-2018-09-23 02:48:49 INFO  TestBase:18 -  -------------------  EXECUTION STARTED -------------------------------
-2018-09-23 02:48:49 INFO  TestBase:19 - 1. Open the browser : Opened in chrome
-2018-09-23 02:48:49 INFO  TestBase:20 - 2. Enter the URL http://practice.automationtesting.in 
-2018-09-23 02:48:50 INFO  TestBase:44 - ---------------------EXECUTION ENDED -------------------------------------
+2018-09-23 14:03:38 INFO  TestBase:18 -  -------------------  EXECUTION STARTED -------------------------------
+2018-09-23 14:03:38 INFO  TestBase:19 - 1. Open the browser : Opened in chrome
+2018-09-23 14:03:38 INFO  TestBase:20 - 2. Enter the URL http://practice.automationtesting.in 
+2018-09-23 14:03:57 INFO  uiActionHomepage:67 - 3. Click on Shop Menu - Passed
+2018-09-23 14:04:59 INFO  uiActionHomepage:69 - 4. Now click on Home menu button
+2018-09-23 14:04:59 INFO  uiActionHomepage:73 - 5. Test whether the Home page has Three Sliders only
+2018-09-23 14:04:59 INFO  uiActionHomepage:80 - 6. The Home page must contains only three sliders
+2018-09-23 14:05:02 INFO  TestBase:44 - ---------------------EXECUTION ENDED -------------------------------------
